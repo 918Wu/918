@@ -1,21 +1,10 @@
-# Jekyll template
-Beautiful responsive portfolio style template for designers and web developers
+# jekyllDecent
+[![Build Status](https://travis-ci.org/jwillmer/jekyllDecent.svg?branch=gh-pages)](https://travis-ci.org/jwillmer/jekyllDecent) 
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](#license)
+[![Release v1.1.5](https://img.shields.io/badge/release-v1.1.5-blue.svg)](https://github.com/jwillmer/jekyllDecent/releases/tag/1.1.5)
 
-[![Gitter](https://badges.gitter.im/nikrich/jekyll-slender-template.svg)](https://gitter.im/nikrich/jekyll-slender-template?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Twitter](https://img.shields.io/badge/Twitter-@slender_rich-blue.svg?style=flat)](https://twitter.com/slender_rich)
+This is a blog template for a static site generator named [Jekyll](https://jekyllrb.com/docs/home/) based on a [Ghost](https://ghost.org) template named [Decent](https://github.com/serenader2014/decent). 
 
-![preview](http://i.imgur.com/9Nz6Ib9.jpg)
+Installation instructions, features, previews and more can be found in the **[GitHub generated blog](http://jwillmer.github.io/jekyllDecent)**. This blog is automatically generated out of the source code in the `gh-pages` branch. If you like to see the theme in production have a look at [jwillmer.de](http://jwillmer.de).
 
-## Demo
-Find a demo [here](http://nikrich.github.io/jekyll-slender-template/#)
-
-## Contributing
-
-1. Clone the repo
-2. Checkout the dev branch ( Do not work directly on master )
-3. Use ```jekyll serve``` to run the project
-4. Make your changes and test
-5. Submit a pull request
-
-
-Inspired by [Balraj Chana](https://dribbble.com/shots/2380700-New-Portfolio-Site-Live)
+[![](./media/img/2016-06-08-Readme-front-page-previewe.jpg)](http://jwillmer.github.io/jekyllDecent)
