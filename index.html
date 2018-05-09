@@ -1,373 +1,293 @@
-<!DOCTYPE html>
 
-<html>
-		<head>
-		<meta charset="utf-8">
-		<title>个人简历</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" href="css/new.css" media="all"/>
-		<link rel="stylesheet" href="css/bootstrap.min.css?v=2159" />
-		<link rel="stylesheet" href="css/zxbj_base.css?v=2818" />
-		<link rel="stylesheet" href="css/jm0203.css" />
-		<style>
-.m-nav-ul .nav_li:nth-child(3) a.erji_a {
-	color: #F66000;
-}
-.m-nav-ul .nav_li:nth-child(3) a.triangle {
-	border-color: #F66000;
-}
-.m-top_user li a {
-	box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	-webkit-box-sizing: content-box;
-}
-.m-erjinav-ul {
-	margin-top: 25px;
-}
-</style>
-</head>
-
-
-<body style="height:auto;background:#f8f8f8;">
-<div class="n_dispage_jm">
-          <div class="n_dispage_jm_in resetEditStyle"> 
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Introduction · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
     
-    <!--编辑区域-->
-    
-    <div class="baseStyle clearfix jm0203_j1" id="resume_body">
-              <div class="divLeft clearfix" id="bar"> 
-        
-        <!--头像-->
-        
-        <div data-toggle="modal" data-target="#myModalHead" class="headDiv" id="resume_head"> <span class="headNotice">点击替换头像</span> <img class="resume_head" src="images/default_head.png" height="200" /> </div>
-        <div id="bar_sort"></div>
-        
-        <!--基本信息-->
-        
-        <div class="msgDiv positonDiv resume_add_area resume_sort" id="resume_msg">
-                  <ul class="editBtn">
-            <li class="btnMove" style="cursor:move;"data-placement="top" title="拖动调整上下位置"></li>
-            <li class="btnPlus resume_add" for-key="resume_msg" data-placement="bottom" title="添加一项"></li>
-          </ul>
-                  <div class="baseAge baseMsg baseDel" id="resume_age">
-            <div class="delete resume_hidden" for-id="resume_age"></div>
-            <a class="resume_icon_diy icon wbdfont" for-id="age" style="font-size:none"></a>
-            <input class="baseBorder resume_msg resume_lang_age" for-key="age" placeholder="年龄/生日" value="22岁" />
-          </div>
-                  <div class="baseAddress baseMsg baseDel" id="resume_address">
-            <div class="delete resume_hidden" for-id="resume_address"></div>
-            <a class="resume_icon_diy icon wbdfont" for-id="address" style="font-size:none"></a>
-            <input class="resume_msg baseBorder resume_lang_address" for-key="address" placeholder="联系地址" value="广西壮族自治区南宁市" />
-          </div>
-                  <div class="baseMobile baseMsg baseDel" id="resume_mobile">
-            <div class="delete resume_hidden" for-id="resume_mobile"></div>
-            <a class="resume_icon_diy icon wbdfont" for-id="mobile" style="font-size:none"></a>
-            <input class="resume_msg baseBorder resume_lang_mobile" for-key="mobile" placeholder="联系电话" value="15676820915" />
-          </div>
-                  <div class="baseEmail baseMsg baseDel" id="resume_email">
-            <div class="delete resume_hidden" for-id="resume_email"></div>
-            <a class="resume_icon_diy icon wbdfont" for-id="email" style="font-size:none"></a>
-            <input class="resume_msg baseBorder resume_lang_email" for-key="email" placeholder="电子邮箱" value="543243578@qq.com" />
-          </div>
-                </div>
-        
-        <!--个人技能-->
-        
-        <div class="skillDiv positonDiv resume_add_area resume_graph resume_sort" id="resume_graph">
-                  <ul class="editBtn">
-            <li class="btnMove" style="cursor:move;"data-placement="top" title="拖动调整上下位置"></li>
-            <li class="btnPlus resume_add" for-key="resume_graph" data-placement="bottom" title="添加一项"></li>
-            <li class="btnDel resume_hidden" for-id="resume_graph" data-placement="bottom" title="隐藏该模块"></li>
-          </ul>
-                  <ul class="skillUl resume_append_area">
-            <li class="baseDel resume_delete_area resume_graph_item">
-                      <div class="skillTitle">
-                <input class="resume_value baseBorder" for-key="resume_skill_graph" placeholder="填写你的技能名称" value="Java" />
-              </div>
-                      <span><i class="resume_line" for-id="resume_skill_graph" style="width:188px;border-top-style:solid;border-top-width:8px;"></i></span>
-                      <div class="delete resume_delete"></div>
-                    </li>
-            <li class="baseDel resume_delete_area resume_graph_item">
-                      <div class="skillTitle">
-                <input class="resume_value baseBorder" for-key="53815fa3293e57988958e27243b16870" placeholder="填写你的技能名称" value="C/C++" />
-              </div>
-                      <span><i class="resume_line" for-id="53815fa3293e57988958e27243b16870" style="width:48px;border-top-style:solid;border-top-width:8px;"></i></span>
-                      <div class="delete resume_delete"></div>
-                    </li>
-            <li class="baseDel resume_delete_area resume_graph_item">
-                      <div class="skillTitle">
-                <input class="resume_value baseBorder" for-key="0fb2de17b37fd50c14ccda4d9b96bd94" placeholder="填写你的技能名称" value="Html Css JavaScrip" />
-              </div>
-                      <span><i class="resume_line" for-id="0fb2de17b37fd50c14ccda4d9b96bd94" style="width:128px;border-top-style:solid;border-top-width:8px;"></i></span>
-                      <div class="delete resume_delete"></div>
-                    </li>
-            <li class="baseDel resume_delete_area resume_graph_item">
-                      <div class="skillTitle">
-                <input class="resume_value baseBorder" for-key="0bab43524d96b1b58129f46097ee14b7" placeholder="填写你的技能名称" value="Jqurey" />
-              </div>
-                      <span><i class="resume_line" for-id="0bab43524d96b1b58129f46097ee14b7" style="width:148px;border-top-style:solid;border-top-width:8px;"></i></span>
-                      <div class="delete resume_delete"></div>
-                    </li>
-            <li class="baseDel resume_delete_area resume_graph_item">
-                      <div class="skillTitle">
-                <input class="resume_value baseBorder" for-key="0fb2de17b37fd50c14ccda4d9b96bd94" placeholder="填写你的技能名称" value="Struts" />
-              </div>
-                      <span><i class="resume_line" for-id="0fb2de17b37fd50c14ccda4d9b96bd94" style="width:108px;border-top-style:solid;border-top-width:8px;"></i></span>
-                      <div class="delete resume_delete"></div>
-                    </li>
-               <li class="baseDel resume_delete_area resume_graph_item">
-                      <div class="skillTitle">
-                <input class="resume_value baseBorder" for-key="0fb2de17b37fd50c14ccda4d9b96bd94" placeholder="填写你的技能名称" value="Spring" />
-              </div>
-                      <span><i class="resume_line" for-id="0fb2de17b37fd50c14ccda4d9b96bd94" style="width:108px;border-top-style:solid;border-top-width:8px;"></i></span>
-                      <div class="delete resume_delete"></div>
-                    </li>
-            <li class="baseDel resume_delete_area resume_graph_item">
-                      <div class="skillTitle">
-                <input class="resume_value baseBorder" for-key="0fb2de17b37fd50c14ccda4d9b96bd94" placeholder="填写你的技能名称" value="Git" />
-              </div>
-                      <span><i class="resume_line" for-id="0fb2de17b37fd50c14ccda4d9b96bd94" style="width:108px;border-top-style:solid;border-top-width:8px;"></i></span>
-                      <div class="delete resume_delete"></div>
-                    </li>
+    <link rel="stylesheet" href="gitbook/style.css">
 
-          </ul>
-                </div>
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
         
-        <!--兴趣爱好-->
+
+    
+
+    
         
-        <div class="hobbyDiv positonDiv resume_add_area resume_icon resume_sort" id="resume_icon">
-                  <ul class="editBtn">
-            <li class="btnMove" style="cursor:move;"data-placement="top" title="拖动调整上下位置"></li>
-            <li class="btnPlus resume_add" for-key="resume_icon" data-placement="bottom" title="添加一项"></li>
-            <li class="btnDel resume_hidden" for-id="resume_icon" data-placement="bottom" title="隐藏该模块"></li>
-          </ul>
-                  <dl class="clearfix">
-            <dt><span>
-              <div class="resume_lang_hobby">兴趣爱好</div>
-              </span></dt>
-            <dd class="resume_append_area">
-                      <div class="hobbyicon baseDel resume_delete_area resume_icon_item"> <a class="resume_icon_diy icon wbdfont" for-id="resume_hobby_icon" style="font-size:none"></a> <span class="hobbyTitle">
-                        <input class="resume_value baseBorder" for-key="resume_hobby_icon" placeholder="兴趣爱好" value="篮球" />
-                        </span>
-                <div class="delete resume_delete"></div>
-              </div>
-                      <div class="hobbyicon baseDel resume_delete_area resume_icon_item"> <a class="resume_icon_diy icon wbdfont" for-id="9eff2552587f9d5970ebab85696208dc" style="font-size:none"></a> <span class="hobbyTitle">
-                        <input class="resume_value baseBorder" for-key="9eff2552587f9d5970ebab85696208dc" placeholder="兴趣爱好" value="足球" />
-                        </span>
-                <div class="delete resume_delete"></div>
-              </div>
-                      <div class="hobbyicon baseDel resume_delete_area resume_icon_item"> <a class="resume_icon_diy icon wbdfont" for-id="162b8459a4a82554da5e6a12c2f21c8f" style="font-size:none"></a> <span class="hobbyTitle">
-                        <input class="resume_value baseBorder" for-key="162b8459a4a82554da5e6a12c2f21c8f" placeholder="兴趣爱好" value="游戏" />
-                        </span>
-                <div class="delete resume_delete"></div>
-              </div>
-                      <div class="hobbyicon baseDel resume_delete_area resume_icon_item"> <a class="resume_icon_diy icon wbdfont" for-id="b3cf5ddaec3cbe67762a2d8d3df17f17" style="font-size:none"></a> <span class="hobbyTitle">
-                        <input class="resume_value baseBorder" for-key="b3cf5ddaec3cbe67762a2d8d3df17f17" placeholder="兴趣爱好" value="摄影" />
-                        </span>
-                <div class="delete resume_delete"></div>
-              </div>
-                    </dd>
-          </dl>
-                </div>
-      </div>
-              <div class="divRight clearfix resume_main" id="foo"> 
+    
         
-        <!--姓名、求职意向-->
+    
         
-        <div class="nameDiv positonDiv" id="resume_name">
-                  <h1>
-            <div class="resume_msg baseBorder resume_notice resume_lang_name" notice-key="msg" for-key="name" for-value="html" contenteditable="true">吴 登</div>
-          </h1>
-                  <h2>
-            <div class="resume_msg baseBorder resume_notice resume_lang_job" notice-key="job" for-key="job" for-value="html" contenteditable="true">求职目标：Java开发工程师</div>
-          </h2>
-                </div>
-        <div id="foo_sort"></div>
+    
         
-        <!--教育背景-->
+    
         
-        <div class="eduDiv baseItem positonDiv resume_item resume_add_area resume_sort resume_notice" notice-key="edu" id="resume_edu" for-key="edu">
-                  <ul class="editBtn">
-            <li class="btnMove" style="cursor:move;"data-placement="top" title="拖动调整上下位置"></li>
-            <li class="btnPlus resume_add" for-key="resume_item" data-placement="bottom" title="添加一项"></li>
-            <li class="btnDel resume_hidden" for-id="resume_edu" data-placement="bottom" title="隐藏该模块"></li>
-          </ul>
-                  <dl>
-            <dt> <a class="resume_icon_diy icon wbdfont" for-id="edu" style="font-size:none"></a> <span>
-              <div class="resume_lang_edu">教育背景</div>
-              <div class="Border resume_line" for-id="edu" style="width:668px;border-top-style:solid;border-top-width:2px;"></div>
-              </span> </dt>
-            <dd class="resume_append_area">
-                      <div class="baseContent baseDel resume_item_items resume_delete_area">
-                <div class="delete resume_delete"></div>
-                <div class="conTitle"> <span class="conTitle_time">
-                  <div class="resume_time baseBorder" contenteditable="true">2013.09-2017.07</div>
-                  </span> <span class="conTitle_company">
-                  <div class="resume_unit baseBorder" contenteditable="true">河池学院</div>
-                  </span> <span class="conTitle_post">
-                  <div class="resume_job baseBorder" contenteditable="true">计算机科学与技术（本科）</div>
-                  </span> </div>
-                <div class="baseDel_ resume_delete_area_">
-                          <div class="delete_ resume_delete_"></div>
-                          <div class="conDisc baseBorder baseDel resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="复制粘贴文字请右键-粘贴为纯文本">
-                    <p>主修课程</p>
-                    <p>高等数学、概率论、线性代数、离散数学、数据结构、数据库系统原理、软件工程、计算机网络、操作系统、编译原理、计算机组成原理、Java程序设计、C语言程序设计、C++程序设计、微机接口。</p>
-                  </div>
-                        </div>
-              </div>
-                    </dd>
-          </dl>
-                </div>
+    
         
-        <!--工作经历-->
+    
+
         
-        <div class="workDiv baseItem positonDiv resume_item resume_add_area resume_sort resume_notice" notice-key="work" id="resume_work" for-key="work">
-                  <ul class="editBtn">
-            <li class="btnMove" style="cursor:move;"data-placement="top" title="拖动调整上下位置"></li>
-            <li class="btnPlus resume_add" for-key="resume_item" data-placement="bottom" title="添加一项"></li>
-            <li class="btnDel resume_hidden" for-id="resume_work" data-placement="bottom" title="隐藏该模块"></li>
-          </ul>
-                  <dl>
-            <dt> <a class="resume_icon_diy icon wbdfont" for-id="work" style="font-size:none"></a> <span>
-              <div class="resume_lang_work">工作经历</div>
-              <div class="Border resume_line" for-id="work" style="width:668px;border-top-style:solid;border-top-width:2px;"></div>
-              </span> </dt>
-            <dd class="resume_append_area">
-                      <div class="baseContent baseDel resume_item_items resume_delete_area">
-                <div class="delete resume_delete"></div>
-                <div class="conTitle"> <span class="conTitle_time">
-                  <div class="resume_time baseBorder" contenteditable="true">无</div>
-                  </span> <span class="conTitle_company">
-                  <div class="resume_unit baseBorder" contenteditable="true"></div>
-                  </span> <span class="conTitle_post">
-                  <div class="resume_job baseBorder" contenteditable="true"></div>
-                  </span> </div>
-                <div class="baseDel_ resume_delete_area_">
-                          <div class="delete_ resume_delete_"></div>
-                          <div class="conDisc baseBorder resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="复制粘贴文字请右键-粘贴为纯文本">
-                        
-                  </div>
-                        </div>
-              </div>
-                    </dd>
-          </dl>
-                </div>
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+
+    </head>
+    <body>
         
-        <!--项目经验-->
+<div class="book">
+    <div class="book-summary">
         
-        <div class="outexperDiv baseItem positonDiv resume_item resume_add_area resume_sort resume_notice" notice-key="project" id="resume_project" for-key="project">
-                  <ul class="editBtn">
-            <li class="btnMove" style="cursor:move;"data-placement="top" title="拖动调整上下位置"></li>
-            <li class="btnPlus resume_add" for-key="resume_item" data-placement="bottom" title="添加一项"></li>
-            <li class="btnDel resume_hidden" for-id="resume_project" data-placement="bottom" title="隐藏该模块"></li>
-          </ul>
-                  <dl>
-            <dt> <a class="resume_icon_diy icon wbdfont" for-id="project" style="font-size:none"></a> <span>
-              <div class="resume_lang_project">项目经验</div>
-              <div class="Border resume_line" for-id="project" style="width:668px;border-top-style:solid;border-top-width:2px;"></div>
-              </span> </dt>
-            <dd class="resume_append_area">
-                      <div class="baseContent baseDel resume_item_items resume_delete_area">
-                <div class="delete resume_delete"></div>
-                <div class="conTitle"> <span class="conTitle_time">
-                  <div class="resume_time baseBorder" contenteditable="true">2016.6-2016.11</div>
-                  </span> <span class="conTitle_company">
-                  <div class="resume_unit baseBorder" contenteditable="true">汽车4S店管理系统</div>
-                  </span> <span class="conTitle_post">
-                  <div class="resume_job baseBorder" contenteditable="true"></div>
-                  </span> </div>
-                <div class="baseDel_ resume_delete_area_">
-                          <div class="delete_ resume_delete_"></div>
-                          <div class="conDisc baseBorder resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="复制粘贴文字请右键-粘贴为纯文本">
-                    <p>作为学习的一个项目，主要学习三大框架下的Java Web开发流程。</p>
-                    <p>这是我学习Java Web开发的一个项目，之前主要自学Java的C/S架构。</p>
-                    <p>自己做过Swing界面下的俄罗斯方块和五子棋小游戏，还做过一个机票管理系统。这段时间学习了一些awt、Swing界面、事件监听等方面的知识。</p>
-                    <p>父亲工作的时候经常要跟Excel表格打交道，经常手动录入数据，重复一些乏味的操作，浪费很多时间。我在尝试解决这些问题的时候，接触了poi操作Excel读取数据入库，在此基础上，做了打印商品标签和生成税务开票软件的XML格式文件导入开票软件开具税务发票。</p>
-                    <p>通过这个项目的学习，我学会了如何将我所学的web前端知识和Java更好融汇贯通，相比Swing界面，web界面更加简单灵活。更加适合商务办公软件。</p>
-                  </div>
-                        </div>
-              </div>
-                      <div class="baseContent baseDel resume_item_items resume_delete_area">
-                <div class="delete resume_delete"></div>
-                <div class="conTitle"> <span class="conTitle_time">
-                  <div class="resume_time baseBorder" contenteditable="true">Codeing</div>
-                  </span> <span class="conTitle_company">
-                  <div class="resume_unit baseBorder" contenteditable="true">库存管理系统</div>
-                  </span> <span class="conTitle_post">
-                  <div class="resume_job baseBorder" contenteditable="true"></div>
-                  </span> </div>
-                <div class="baseDel_ resume_delete_area_">
-                          <div class="delete_ resume_delete_"></div>
-                          <div class="conDisc baseBorder resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="复制粘贴文字请右键-粘贴为纯文本">
-                    
-                  </div>
-                        </div>
-              </div>
-                      <div class="baseContent baseDel resume_item_items resume_delete_area">
-                <div class="delete resume_delete"></div>
-                <div class="conTitle"> <span class="conTitle_time">
-                  <div class="resume_time baseBorder" contenteditable="true"></div>
-                  </span> <span class="conTitle_company">
-                  <div class="resume_unit baseBorder" contenteditable="true"></div>
-                  </span> <span class="conTitle_post">
-                  <div class="resume_job baseBorder" contenteditable="true"></div>
-                  </span> </div>
-                <div class="baseDel_ resume_delete_area_">
-                          <div class="delete_ resume_delete_"></div>
-                          <div class="conDisc baseBorder resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="复制粘贴文字请右键-粘贴为纯文本">
-                    
-                  </div>
-                        </div>
-              </div>
-                      <div class="baseContent baseDel resume_item_items resume_delete_area">
-                <div class="delete resume_delete"></div>
-                <div class="conTitle"> <span class="conTitle_time">
-                  <div class="resume_time baseBorder" contenteditable="true"></div>
-                  </span> <span class="conTitle_company">
-                  <div class="resume_unit baseBorder" contenteditable="true"></div>
-                  </span> <span class="conTitle_post">
-                  <div class="resume_job baseBorder" contenteditable="true"></div>
-                  </span> </div>
-                <div class="baseDel_ resume_delete_area_">
-                          <div class="delete_ resume_delete_"></div>
-                          <div class="conDisc baseBorder resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="复制粘贴文字请右键-粘贴为纯文本">
-                    
-                  </div>
-                        </div>
-              </div>
-                    </dd>
-          </dl>
-                </div>
-        
-        <!--自我评价-->
-        
-        <div class="selfDiv baseItem positonDiv resume_item resume_sort resume_notice" notice-key="self" id="resume_self" for-key="self">
-                  <ul class="editBtn">
-            <li class="btnMove" style="cursor:move;"data-placement="top" title="拖动调整上下位置"></li>
-            <li class="btnPlus" data-placement="bottom" title="添加一项" style="display:none;"></li>
-            <li class="btnDel resume_hidden" for-id="resume_self" data-placement="bottom" title="隐藏该模块"></li>
-          </ul>
-                  <dl>
-            <dt> <a class="resume_icon_diy icon wbdfont" for-id="self" style="font-size:none"></a> <span>
-              <div class="resume_lang_self">自我评价</div>
-              <div class="Border resume_line" for-id="self" style="width:668px;border-top-style:solid;border-top-width:2px;"></div>
-              </span> </dt>
-            <dd>
-                      <div class="baseContent">
-                <div class="conDisc baseBorder resume_lang_self_value resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="复制粘贴文字请右键-粘贴为纯文本">
-                          <p>本人做事稳重，对待工作认真，责任心较强，待人真诚，善于沟通，时刻保持学习，积极拥抱变化。喜</p>
-                          <p>欢java 开发，具备一定的软件分析、设计、开发和应用能力，拥有较强的学习能力与团队精神，能够</p>
-                          <p>很快的适应工作环境。</p>
-                        </div>
-              </div>
-                    </dd>
-          </dl>
-                </div>
-      </div>
-            </div>
-  </div>
-        </div>
-		<div style="text-align:center;">
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
 </div>
 
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter active" data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Introduction</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p><em>Java &#x5F00;&#x53D1;</em></p>
+<h1 id="&#x5434;--&#x767B;1">&#x5434;  &#x767B;<sup><a href="#fn_1" id="reffn_1">1</a></sup></h1>
+<p><a href="https://github.com/918Wu" target="_blank">https://github.com/918Wu</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x6CB3;&#x6C60;&#x5B66;&#x9662;</th>
+<th style="text-align:left">&#x672C;&#x79D1;</th>
+<th style="text-align:left">&#x8BA1;&#x7B97;&#x673A;&#x79D1;&#x5B66;&#x4E0E;&#x6280;&#x672F;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">&#x624B;&#x673A;&#xFF1A;15277039626</td>
+<td style="text-align:left">&#x90AE;&#x7BB1;&#xFF1A;wudeng918@126.com</td>
+<td style="text-align:left">wd.918.94@gmail.com</td>
+</tr>
+</tbody>
+</table>
+<p>&#x6280;&#x672F;&#x6808;&#xFF1A;</p>
+<ul>
+<li>C &#x89E3;&#x7B97;&#x6CD5;&#x9898;&#x3001;C++ &#x4E0D;&#x5E38;&#x7528;</li>
+<li>Java &#x57FA;&#x7840;-&gt;Gui-&gt;J2EE(Jsp/Servlet&#x3001;Struts2&#x3001;Spring/MVC&#x3001;Hibernate&#x3001;Mybaits)</li>
+<li>Python &#x968F;&#x60F3;&#x968F;&#x5199;&#xFF0C;&#x5199;&#x8D77;&#x6765;&#x65B9;&#x4FBF;</li>
+<li>Html&#x3001;Css&#x3001;JavaScript&#x3001;JQuery</li>
+<li>SQL</li>
+<li>Linux/git</li>
+</ul>
+<hr>
+<p>&#x6211;&#x5E73;&#x65F6;&#x559C;&#x6B22;&#x94BB;&#x7814;&#x63A2;&#x8BA8;&#x597D;&#x73A9;&#x6709;&#x8DA3;&#x7684;&#x6280;&#x672F;&#xFF0C;&#x5584;&#x4E8E;&#x5229;&#x7528;&#x6240;&#x5B66;&#x77E5;&#x8BC6;&#x548C;&#x5DE5;&#x5177;&#x52A8;&#x624B;&#x89E3;&#x51B3;&#x4E0A;&#x7F51;&#x8FC7;&#x7A0B;&#x4E2D;&#x9047;&#x5230;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x5173;&#x6CE8;&#x5F00;&#x6E90;&#x793E;&#x533A;&#xFF0C;&#x6D3B;&#x7528;&#x641C;&#x7D22;&#x5F15;&#x64CE;&#xFF0C;&#x6536;&#x96C6;&#x5B66;&#x4E60;&#x65B0;&#x9C9C;&#x4E8B;&#x7269;&#x3002;&#x4E86;&#x89E3;&#x8BF8;&#x5982;POI&#xFF08;&#x64CD;&#x4F5C;Excel&#xFF09;&#x3001;Chrome&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#xFF08;&#x4FEE;&#x6539;&#x7F51;&#x9875;&#x903B;&#x8F91;&#x3001;&#x81EA;&#x52A8;&#x5316;&#xFF09;&#x3001;you-get/youtube-dl&#xFF08;&#x672C;&#x5730;&#x64AD;&#x653E;&#x3001;&#x4E0B;&#x8F7D;&#x89C6;&#x9891;&#xFF09;&#x3001;ffmpeg&#xFF08;&#x8F6C;&#x7801;&#xFF09;&#x3001;VPS&#xFF08;Linux&#xFF09;&#x7B49;&#x6280;&#x672F;&#x6539;&#x5584;&#x4E0A;&#x7F51;&#x4F53;&#x9A8C;&#x3002;&#x6700;&#x8FD1;&#x6253;&#x7B97;&#x9759;&#x5FC3;&#x5DE9;&#x56FA;&#x57FA;&#x7840;&#xFF0C;&#x91CD;&#x6E29;&#x7B97;&#x6CD5;&#x548C;&#x6570;&#x636E;&#x7ED3;&#x6784;&#xFF0C;&#x5BF9;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x4E5F;&#x62B1;&#x6709;&#x4E00;&#x5B9A;&#x5174;&#x8DA3;&#x3002;</p>
+<blockquote>
+<p>&#x5B64;&#x821F;&#x84D1;&#x7B20;&#x7FC1;&#xFF0C;&#x72EC;&#x9493;&#x5BD2;&#x6C5F;&#x96EA;&#x3002;</p>
+</blockquote>
+<hr>
+<h4 id="20173&#x2014;&#x2014;20177-&#x5357;&#x5B81;&#x4EBF;&#x9633;&#x4FE1;&#x901A;---&#x5B9E;&#x4E60;">2017.3&#x2014;&#x2014;2017.7 &#x5357;&#x5B81;&#x4EBF;&#x9633;&#x4FE1;&#x901A;   &#x5B9E;&#x4E60;</h4>
+<ul>
+<li>&#x4EE3;&#x7EF4;&#x7CFB;&#x7EDF;&#x6545;&#x969C;&#x7BA1;&#x63A7;&#x5E73;&#x53F0;</li>
+<li>&#x7BA1;&#x7EBF;&#x7CFB;&#x7EDF;</li>
+</ul>
+<h4 id="&#x4F01;&#x4E1A;&#x5E93;&#x5B58;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;-&#x300C;&#x6BD5;&#x4E1A;&#x8BBE;&#x8BA1;&#x300D;">&#x4F01;&#x4E1A;&#x5E93;&#x5B58;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF; <a href="https://github.com/918Wu/918Wu.github.io/blob/master/assets/&#x5434;&#x767B;&#x4F18;&#x79C0;&#x6BD5;&#x4E1A;&#x8BBA;&#x6587;&#x8BC1;&#x4E66;.jpg" target="_blank">&#x300C;&#x6BD5;&#x4E1A;&#x8BBE;&#x8BA1;&#x300D;</a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Struts2</th>
+<th style="text-align:left">Spring</th>
+<th style="text-align:left">Hibernate</th>
+<th style="text-align:left">MySQL</th>
+<th style="text-align:left">EasyUI</th>
+<th style="text-align:left">HighChar</th>
+<th style="text-align:left">FastJson</th>
+<th style="text-align:left">&#x2026;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>&#x7528;&#x6237;&#x7BA1;&#x7406;&#x3001;&#x5458;&#x5DE5;&#x7BA1;&#x7406;&#x3001;&#x90E8;&#x95E8;&#x7BA1;&#x7406;&#x3001;&#x83DC;&#x5355;&#x7BA1;&#x7406;&#x3001;&#x89D2;&#x8272;&#x7BA1;&#x7406;&#x3001;&#x5E93;&#x5B58;&#x7BA1;&#x7406;&#x3001;&#x5E93;&#x5B58;&#x62A5;&#x8B66;&#x8BBE;&#x7F6E;&#x3001;&#x7269;&#x54C1;&#x7BA1;&#x7406;&#x3001;&#x4F9B;&#x5E94;&#x5546;&#x7BA1;&#x7406;&#x3001;&#x5BA2;&#x6237;&#x7BA1;&#x7406;&#x3001;&#x91C7;&#x8D2D;&#x8BA2;&#x5355;&#x7BA1;&#x7406;&#x3001;&#x9500;&#x552E;&#x8BA2;&#x5355;&#x7BA1;&#x7406;&#x3001;&#x51FA;&#x5E93;&#x7BA1;&#x7406;&#x3001;&#x5165;&#x5E93;&#x7BA1;&#x7406;&#x3001;&#x62A5;&#x8868;&#x3002;</p>
+</li>
+<li><p>&#x7CFB;&#x7EDF;&#x8BBE;&#x8BA1;&#x5B9E;&#x73B0;&#x4E86;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x6743;&#x9650;&#x6A21;&#x5757;&#xFF0C;&#x53EF;&#x8FDB;&#x884C;&#x539F;&#x5B50;&#x64CD;&#x4F5C;&#x7684;&#x6743;&#x9650;&#x7BA1;&#x7406;&#xFF0C;&#x7CBE;&#x786E;&#x5230;&#x6BCF;&#x4E00;&#x4E2A;&#x64CD;&#x4F5C;&#x3002;&#x91CD;&#x5199;&#x4E3A;EasyUI&#x4E0B;&#x62C9;&#x6846;&#x7EC4;&#x4EF6;&#x6DFB;&#x52A0;&#x4E86;&#x641C;&#x7D22;&#x3001;&#x81EA;&#x52A8;&#x586B;&#x5145;&#x3001;&#x6570;&#x91CF;&#x9A8C;&#x8BC1;&#x7B49;&#x529F;&#x80FD;&#x3002;&#x4F18;&#x5316;&#x64CD;&#x4F5C;&#x754C;&#x9762;&#xFF0C;&#x7ED9;&#x6807;&#x7B7E;&#x9875;&#x6DFB;&#x52A0;&#x4E86;&#x7C7B;&#x4F3C;Chrome&#x6D4F;&#x89C8;&#x5668;&#x6807;&#x7B7E;&#x7684;&#x5173;&#x95ED;&#x83DC;&#x5355;&#x7EC4;&#x4EF6;&#xFF0C;&#x6DFB;&#x52A0;&#x5546;&#x54C1;&#x4F7F;&#x7528;EasyUI&#x865B;&#x7F16;&#x8F91;&#x5668;&#xFF0C;&#x4E30;&#x5BCC;&#x5176;&#x529F;&#x80FD;&#x4F7F;&#x7C7B;&#x4F3C;Excel&#x8868;&#x683C;&#x3002;&#x7B80;&#x5355;&#x7684;&#x5E93;&#x5B58;&#x62A5;&#x8B66;&#x673A;&#x5236;&#x3001;&#x5F55;&#x5165;&#x64A4;&#x9500;&#x673A;&#x5236;&#x3001;&#x64CD;&#x4F5C;&#x8BB0;&#x5F55;&#x673A;&#x5236;&#x3002;&#x4F7F;&#x7528;&#x6CDB;&#x578B;&#x53CA;&#x53CD;&#x5C04;&#x51CF;&#x5C11;&#x5927;&#x91CF;&#x4EE3;&#x7801;&#x3002;</p>
+</li>
+<li><p>&#x603B;&#x4F53;&#x6765;&#x8BF4;&#x57FA;&#x672C;&#x5B9E;&#x73B0;&#x4E86;&#x5168;&#x90E8;&#x529F;&#x80FD;&#xFF0C;&#x6709;&#x8BB8;&#x591A;&#x521B;&#x65B0;&#x7684;&#x8BBE;&#x8BA1;&#xFF0C;&#x4F46;&#x662F;&#x7531;&#x4E8E;&#x65F6;&#x95F4;&#x6709;&#x9650;&#xFF0C;&#x6CA1;&#x6709;&#x8FBE;&#x5230;&#x6211;&#x7406;&#x60F3;&#x7684;&#x6548;&#x679C;&#x3002;</p>
+</li>
+</ul>
+<h4 id="&#x4E00;&#x4E9B;&#x7EC3;&#x624B;&#x7CFB;&#x7EDF;">&#x4E00;&#x4E9B;&#x7EC3;&#x624B;&#x7CFB;&#x7EDF;</h4>
+<h4 id="&#x4E00;&#x4E9B;&#x5C0F;&#x6E38;&#x620F;">&#x4E00;&#x4E9B;&#x5C0F;&#x6E38;&#x620F;</h4>
+<blockquote id="fn_1">
+<sup>1</sup>. 23&#x5C81;    &#x7537;    &#x6C49;&#x65CF;<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#x21A9;</a>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2018-05-09T10:06:02.648Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-09T10:06:52.009Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
 </html>
+
